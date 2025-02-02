@@ -21,6 +21,7 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem 'jekyll-sass-converter', '~> 3.0' # Added this line to resolve SCSS issues
 
     gem 'classifier-reborn'  # used for content categorization during the build
 end
@@ -36,3 +37,4 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
